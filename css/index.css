@@ -181,6 +181,11 @@ img {
   margin: 0 auto;
   padding: 2% 0 2% 0;
 }
+@media (max-width: 500px) {
+  .content-section__1 .nav {
+    flex-wrap: wrap-reverse;
+  }
+}
 .content-section__1 a {
   text-decoration: none;
   font-size: 1.6rem;
